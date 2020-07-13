@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Alphatuts++ Home</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--Navbar -->
+    <nav id="header" class="mb-1 navbar navbar-expand-lg fixed-top  scrolling-navbar">
+        <a class="navbar-brand" href="#">
+            <img src="img/alphatuts.png" height="55" alt="mdb logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333" aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a id="m-item-c" class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a id="m-item" class="nav-link" href="#">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a id="m-item" class="nav-link" href="#">Tutorials</a>
+                </li>
+                <li class="nav-item">
+                    <a id="m-item" class="nav-link" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a id="m-item" class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a id="m-item" class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto nav-flex-icons">
+                <li class="nav-item">
+                    <a class="fa-lg p-2 m-2 tw-ic">
+                        <i class="fab fa-twitter"> </i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="fa-lg p-2 m-2 yt-ic">
+                        <i class="fab fa-youtube"> </i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="fa-lg p-2 m-2 git-ic">
+                        <i class="fab fa-github"> </i>
+                    </a>
+                </li>
+                <!-- Split button -->
+                <div class="btn-group">
+                    <a href="login-page.html"><button id="login-btn" type="button" class="btn ">login</button></a>
+                    <button id="login-btn" type="button" class="btn  dropdown-toggle px-3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="sr-only"></span>
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="signup.html">Register</a>
+                        <a class="dropdown-item" href="#">forgot Password</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here ?</a>
+                        <a id="c-btn" class="dropdown-item active" href="#">Contribute</a>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </nav>
+    <!--/.Navbar -->
+    <!-- content goes here-->
+      <div class="container my-5 py-5 z-depth-1">
+
+ 
+    <!--Section: Content-->
+    <section class="px-md-5 mx-md-5 text-center text-lg-left dark-grey-text">
+
+
+      <!--Grid row-->
+      <div class="row d-flex justify-content-center">
+
+        <!--Grid column-->
+        <div class="col-md-6">
+
+          <!-- Default form register -->
+          <form class="text-center" action="#!">
+
+            <p class="h4 mb-4">Sign up</p>
+
+            <div class="form-row mb-4">
+              <div class="col">
+                <!-- First name -->
+                <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="First name">
+              </div>
+              <div class="col">
+                <!-- Last name -->
+                <input type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Last name">
+              </div>
+            </div>
+
+            <!-- E-mail -->
+            <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+            <!-- Password -->
+            <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password"
+              aria-describedby="defaultRegisterFormPasswordHelpBlock">
+            <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
+              At least 8 characters and 1 digit
+            </small>
+
+            <!-- Phone number -->
+            <input type="number" id="defaultRegisterPhonePassword" class="form-control" placeholder="Phone number"
+              aria-describedby="defaultRegisterFormPhoneHelpBlock">
+            <small id="defaultRegisterFormPhoneHelpBlock" class="form-text text-muted mb-4">
+              Optional - for two step authentication
+            </small>
+
+            <!-- Newsletter -->
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="defaultRegisterFormNewsletter">
+              <label class="custom-control-label" for="defaultRegisterFormNewsletter">Subscribe to our
+                newsletter</label>
+            </div>
+
+            <!-- Sign up button -->
+            <button class="btn btn-info my-4 btn-block" type="submit">Sign in</button>
+
+            <!-- Social register -->
+            <p>or sign up with:</p>
+
+                <a href="#" class="mx-1" role="button"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="mx-1" role="button"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="mx-1" role="button"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="mx-1" role="button"><i class="fab fa-github"></i></a>
+
+            <hr>
+
+            <!-- Terms of service -->
+            <p>By clicking
+              <em>Sign up</em> you agree to our
+              <a href="" target="_blank">terms of service</a>
+
+          </form>
+          <!-- Default form register -->
+
+        </div>
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+
+
+    </section>
+    <!--Section: Content-->
+
+
+  </div>
+    <!-- content here ends-->
+    <!-- Footer -->
+    <footer class="page-footer font-small cyan darken-3">
+        <!-- Footer Elements -->
+        <div class="container">
+            <!-- Grid row-->
+            <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-12 py-5">
+                    <div class="mb-5 flex-center">
+                        <!-- Facebook -->
+                        <a class="fb-ic">
+                            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!-- Twitter -->
+                        <a class="tw-ic">
+                            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!-- Google +-->
+                        <a class="gplus-ic">
+                            <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Linkedin -->
+                        <a class="li-ic">
+                            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="ins-ic">
+                            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Pinterest-->
+                        <a class="pin-ic">
+                            <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row-->
+        </div>
+        <!-- Footer Elements -->
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+            <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <!-- Back to top button -->
+    <a id="button"></a>
+    <!-- End your project here-->
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Your custom scripts (optional) -->
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

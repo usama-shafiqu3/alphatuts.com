@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- Start your project here-->
+    <!-- Text Logo and image logo starts here -->
+    <!--Navbar -->
+    <nav id="header" class="mb-1 navbar navbar-expand-lg navbar-dark scrolling-navbar">
+        <a class="navbar-brand" href="#">
+            <img src="img/alphatuts.png" height="40" alt="mdb logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333" aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a id="m-item-c" class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a id="m-item" class="nav-link" href="#">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a id="m-item" class="nav-link" href="#">Tutorials</a>
+                </li>
+                <li class="nav-item">
+                    <a id="m-item" class="nav-link" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a id="m-item" class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a id="m-item" class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto nav-flex-icons">
+                <li class="nav-item">
+                    <a class="nav-link waves-effect waves-light">
+                        <i id="s-icons" class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link waves-effect waves-light">
+                        <i id="s-icons" class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link waves-effect waves-light">
+                        <i id="s-icons" class="fab fa-youtube"></i>
+                    </a>
+                </li>
+                <!-- Split button -->
+                <div class="btn-group">
+                    <button id="login-btn" type="button" class="btn "><a href="login.html"></a>login</button>
+                    <button id="login-btn" type="button" class="btn  dropdown-toggle px-3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="sr-only"></span>
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Register</a>
+                        <a class="dropdown-item" href="#">forgot Password</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here ?</a>
+                        <a id="c-btn" class="dropdown-item active" href="#">Contribute</a>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </nav>
+    <!-- container having intro of website -->
+   <!--Carousel Wrapper-->
+  <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+      <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+
+      <!--First slide-->
+      <div class="carousel-item active">
+        <div class="view">
+
+          <!--Video source-->
+          <video class="video-intro" autoplay loop muted>
+            <source src="https://mdbootstrap.com/img/video/city.mp4" type="video/mp4" >
+          </video>
+
+          <!-- Mask & flexbox options-->
+          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            <!-- Content -->
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4">
+                <strong>Learn Bootstrap 4 with MDB</strong>
+              </h1>
+
+              <p>
+                <strong>Best & free guide of responsive web design</strong>
+              </p>
+
+              <p class="mb-4 d-none d-md-block">
+                <strong>The most comprehensive tutorial for the Bootstrap 4. Loved by over 500 000 users. Video and written versions
+                  available. Create your own, stunning website.</strong>
+              </p>
+
+              <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-outline-white btn-lg">Start free tutorial
+                <i class="fas fa-graduation-cap ml-2"></i>
+              </a>
+            </div>
+            <!-- Content -->
+
+          </div>
+          <!-- Mask & flexbox options-->
+
+        </div>
+      </div>
+      <!--/First slide-->
+
+      <!--Second slide-->
+      <div class="carousel-item">
+        <div class="view">
+
+          <!--Video source-->
+          <video class="video-intro" autoplay loop muted>
+              <source src="https://mdbootstrap.com/img/video/forest.mp4" type="video/mp4">
+          </video>
+
+          <!-- Mask & flexbox options-->
+          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            <!-- Content -->
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4">
+                <strong>Learn Bootstrap 4 with MDB</strong>
+              </h1>
+
+              <p>
+                <strong>Best & free guide of responsive web design</strong>
+              </p>
+
+              <p class="mb-4 d-none d-md-block">
+                <strong>The most comprehensive tutorial for the Bootstrap 4. Loved by over 500 000 users. Video and written versions
+                  available. Create your own, stunning website.</strong>
+              </p>
+
+              <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-outline-white btn-lg">Start free tutorial
+                <i class="fas fa-graduation-cap ml-2"></i>
+              </a>
+            </div>
+            <!-- Content -->
+
+          </div>
+          <!-- Mask & flexbox options-->
+
+        </div>
+      </div>
+      <!--/Second slide-->
+
+      <!--Third slide-->
+      <div class="carousel-item">
+        <div class="view">
+
+          <!--Video source-->
+          <video class="video-intro" autoplay loop muted>
+              <source src="https://mdbootstrap.com/img/video/Tropical.mp4" type="video/mp4">
+          </video>
+
+          <!-- Mask & flexbox options-->
+          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            <!-- Content -->
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4">
+                <strong>Learn Bootstrap 4 with MDB</strong>
+              </h1>
+
+              <p>
+                <strong>Best & free guide of responsive web design</strong>
+              </p>
+
+              <p class="mb-4 d-none d-md-block">
+                <strong>The most comprehensive tutorial for the Bootstrap 4. Loved by over 500 000 users. Video and written versions
+                  available. Create your own, stunning website.</strong>
+              </p>
+
+              <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-outline-white btn-lg">Start free tutorial
+                <i class="fas fa-graduation-cap ml-2"></i>
+              </a>
+            </div>
+            <!-- Content -->
+
+          </div>
+          <!-- Mask & flexbox options-->
+
+        </div>
+      </div>
+      <!--/Third slide-->
+
+    </div>
+    <!--/.Slides-->
+
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+
+  </div>
+  <!--/.Carousel Wrapper-->
+    <!--/.container-->
+    <!--/.Navbar -->
+    <div class="container my-5">
+
+
+  <!-- Section: Block Content -->
+  <section class="dark-grey-text text-center">
+
+    <h3 class="font-weight-bold mb-4 pb-2">Our best projects</h3>
+    <p class="text-muted w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur veniam.</p>
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-lg-4 col-md-12 mb-4">
+
+        <div class="view overlay rounded z-depth-1">
+          <img src="https://mdbootstrap.com/img/Photos/Others/images/58.jpg" class="img-fluid" alt="Sample project image">
+          <a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+
+        <div class="px-3 pt-3 mx-1 mt-1 pb-0">
+          <h4 class="font-weight-bold mt-1 mb-3">Title of the news</h4>
+          <p class="text-muted">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae.</p>
+          <a class="btn btn-indigo btn-sm btn-rounded"><i class="fas fa-clone left"></i> View project</a>
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-lg-4 col-md-6 mb-4">
+
+        <div class="view overlay rounded z-depth-1">
+          <img src="https://mdbootstrap.com/img/Photos/Others/project4.jpg" class="img-fluid" alt="Sample project image">
+          <a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+
+        <div class="px-3 pt-3 mx-1 mt-1 pb-0">
+          <h4 class="font-weight-bold mt-1 mb-3">Title of the news</h4>
+          <p class="text-muted">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae.</p>
+          <a class="btn btn-indigo btn-sm btn-rounded"><i class="fas fa-clone left"></i> View project</a>
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-lg-4 col-md-6 mb-4">
+
+        <div class="view overlay rounded z-depth-1">
+          <img src="https://mdbootstrap.com/img/Photos/Others/images/88.jpg" class="img-fluid" alt="Sample project image">
+          <a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+
+        <div class="px-3 pt-3 mx-1 mt-1 pb-0">
+          <h4 class="font-weight-bold mt-1 mb-3">Title of the news</h4>
+          <p class="text-muted">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae.</p>
+          <a class="btn btn-indigo btn-sm btn-rounded"><i class="fas fa-clone left"></i> View project</a>
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </section>
+  <!-- Section: Block Content -->
+
+
+</div>
+    <!-- Text Logo and image logo ends here -->
+    <!-- End your project here-->
+</body>
