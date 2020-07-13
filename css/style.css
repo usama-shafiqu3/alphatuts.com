@@ -1,0 +1,436 @@
+/* colors used in hole template :  
+
+1: #212121 black
+2: #ffffff white
+3: #1658a7 dark blue
+
+
+
+
+
+
+/* Navbar Css */
+html {
+  scroll-behavior: smooth;
+
+}
+
+#header {
+    background: transparent;
+
+}
+
+.top-nav-collapse {
+    background-color: #4285F4;
+}
+
+
+@media (min-width: 800px) and (max-width: 850px) 
+{
+  .navbar:not(.top-nav-collapse)
+  {
+    background: #1658a7 !important;
+  }
+
+}
+
+.view,
+body,
+html {
+    height: 100%
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, .2)
+}
+
+.page-footer,
+.top-nav-collapse {
+    background-color: #1C2331
+}
+
+@media only screen and (max-width:768px) {
+    .navbar {
+        background-color: #1C2331
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #4285F4;
+    }
+}
+
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+
+
+/* contribute button css */
+
+#c-btn {
+    background-color: black;
+}
+
+#c-btn:hover {
+    background-color: #1658a7;
+    transition: 0.5s;
+}
+
+/* menu setings of css*/
+
+.navbar-nav {
+    font-weight: bold;
+
+}
+
+#m-item {
+    color:#ffffff ;
+    font-weight: bold;
+}
+
+#m-item:hover {
+    color: #1658a7;
+    transition: 0.6s;
+}
+
+#m-item-c {
+    color: #1658a7;
+    font-weight: bold;
+}
+
+
+
+
+/* login button css */
+
+#login-btn {
+    background-color: #212121;
+    color: white;
+}
+
+#login-btn:hover {
+
+    background-color: #1658a7;
+    transition: 0.6s;
+    color: white;
+    font-weight: bold;
+
+}
+
+/* first content container css */
+
+.hero-image {
+    background-image: url("01.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+
+
+
+html,
+body,
+header,
+.carousel {
+    height: 60vh;
+}
+
+@media (max-width: 740px) {
+
+    html,
+    body,
+    header,
+    .carousel {
+        height: 100vh;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+
+    html,
+    body,
+    header,
+    .carousel {
+        height: 100vh;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background: white;
+    }
+}
+
+.view,
+body,
+html {
+    height: 100%
+}
+
+@media (max-width:740px) {
+    .full-page-intro {
+        height: 1000px
+    }
+}
+
+.carousel {
+    height: 50%
+}
+
+.carousel .carousel-inner,
+.carousel .carousel-inner .active,
+.carousel .carousel-inner .carousel-item {
+    height: 100%
+}
+
+@media (max-width:776px) {
+    .carousel {
+        height: 100%
+    }
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, .3)
+}
+
+.page-footer,
+.top-nav-collapse {
+    background-color: #1C2331
+}
+
+@media only screen and (max-width:768px) {
+    .navbar {
+        background-color: #1C2331
+    }
+}
+
+/* css of carusel */
+
+#content {
+    background-color: #6c6c6c;
+    opacity: 80%;
+    border-radius: 32px;
+}
+
+#h-content {
+    color:white;
+    font-weight: bold;
+}
+
+#h-content:hover {
+    color: white;
+    transition: 0.6s;
+    font-weight: bold;
+    background-color: #5e5e5e;
+    border-radius: 32px;
+
+}
+
+#h3-content {
+    color: white;
+    font-weight: bold;
+
+}
+
+#h3-content:hover {
+    color: white;
+    transition: 0.6s;
+    background-color: #5e5e5e;
+    transition: 0.6s;
+    font-weight: bold;
+    border-radius: 32px;
+
+}
+
+#p-content {
+    color: white;
+}
+
+#p-content:hover {
+    color: white;
+    background-color: #5e5e5e;
+    transition: 0.6s;
+    border-radius: 32px;
+
+}
+
+#btn-content {
+    background-color: #212121;
+    color: white;
+}
+
+#btn-content:hover {
+    background-color: #1658a7;
+    transition: 0.6s;
+    font-weight: bold;
+}
+
+/* First section css */ 
+#c-django{
+  
+}
+body{
+ background-color: #ffffff ;
+
+
+
+}
+#bg{
+  background-color:;
+}
+#c-heading{
+  background-color: #5e5e5e;
+
+}
+#h3-heading{
+    color: white;
+}
+
+
+/* contribute in projects css*/
+
+#c-projects{
+  margin-top: 200px;
+}
+#btn-c-projects{
+  background-color: #212121 ;
+  color:white;
+}
+
+#btn-c-projects:hover{
+ 
+ background-color:#1658a7; 
+ color: white;
+ transition: 0.6s;
+ font-weight: bold;
+}
+
+/* projects section css */
+#card-info{
+    margin-bottom: 230px;
+}
+
+#btn-c-projects{
+ 
+}
+
+#btn-c-projects:hover{
+ 
+ background-color:#1658a7; 
+ color: white;
+ transition: 0.6s;
+ font-weight: bold;
+}
+
+/* css of team section*/
+#avatar:hover{
+  transform: scale(1.5);
+  transition: 0.6s;
+}
+
+
+/* css of testimonial section */
+#cad-id:hover{
+
+transform: scale(1.5);
+  transition: 0.6s;
+}
+
+/* css of projects card */
+#height-img{
+    height: 240px;
+} 
+
+/* css of subscribe section */
+#subscribe{
+    margin-top: 280px;
+}
+/* back to top button */ 
+#button {
+  display: inline-block;
+  background-color: #FF9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Styles for the content section */
+
+.content {
+  width: 77%;
+  margin: 50px auto;
+  font-family: 'Merriweather', serif;
+  font-size: 17px;
+  color: #6c767a;
+  line-height: 1.9;
+}
+@media (min-width: 500px) {
+  .content {
+    width: 43%;
+  }
+  #button {
+    margin: 30px;
+  }
+}
+.content h1 {
+  margin-bottom: -10px;
+  color: #03a9f4;
+  line-height: 1.5;
+}
+.content h3 {
+  font-style: italic;
+  color: #96a2a7;
+}
+/* colors used in hole template :  
+
+1: #212121 black
+2: #ffffff white
+3: #1658a7 dark blue
+
